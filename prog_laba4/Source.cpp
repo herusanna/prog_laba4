@@ -26,7 +26,7 @@ void lvl2() {
     cout << "The result: " << str << endl;
 }
 void lvl3() {
-    char str[30];
+    char str[] = { "At!Vinta!!" };
     int indexOf = 0;
     cout << "Input string, including '!':\n\n ";
     cin.getline(str, sizeof(str));
